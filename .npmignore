@@ -1,0 +1,25 @@
+# generated sass/css files
+build/
+/app/cache/*
+.sass-cache/*
+
+.sass-cache
+
+# mac files
+*.DS_Store
+
+/Gemfile.lock
+.bundle/
+
+.idea/
+.idea
+.tags*
+
+.sync
+
+# IDEs
+\.sublime-workspace
+*.sublime-workspace
+.vscode
+
+/tmp/webpack

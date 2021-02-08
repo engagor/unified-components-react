@@ -1,13 +1,13 @@
 # Clarabridge Engage Unified Components :construction:
 
-Clarabridge Unified Components is a set of React components that implement our unified design.
+Clarabridge Engage Unified Components is a set of React components that implement our unified design.
 
 ## Installation
 
-Clarabridge Unified Components can be installed as an [npm package](https://www.npmjs.com/package/@clarabridge/unified-ui):
+Clarabridge Engage Unified Components can be installed as an [npm package](https://www.npmjs.com/package/@clarabridge/unified-components):
 
 ```bash
-$ npm i @clarabridge/unified-ui
+$ npm i @clarabridge/unified-components
 ```
 
 ## Basic usage
@@ -17,9 +17,8 @@ $ npm i @clarabridge/unified-ui
 ## Contributing
 
 1. Do your changes on a feature branch
-2. Run  `npm run format` to clean up
-3. Make a PR for your commit
-4. Get a coffee and wait for reviews
+2. Make a PR for your commit
+3. Get a coffee and wait for reviews
 
 ## How to make a release
 
@@ -27,8 +26,6 @@ $ npm i @clarabridge/unified-ui
 2. Make a release with `release-major`, `release-minor`, `release-patch`.
 
 This will update version numbers, create a Github release and create a new version of the NPM package.
-
-We will automagically create a `dist` folder on `prePublish` in the npm package.
 
 ## License
 ````

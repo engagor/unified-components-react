@@ -37,9 +37,10 @@
 
 .form-multiple {
     padding: 6px 0;
-option {
-    padding: 0 12px;
 }
+
+.form-multiple option{
+    padding: 0 12px;
 }
 
 .form-label {

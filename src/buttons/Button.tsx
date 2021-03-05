@@ -1,7 +1,7 @@
 import React, { PropsWithChildren, ReactElement } from "react";
 
 export type ButtonProps = {
-    mode: 'default' | 'primary' | 'secondary' | 'warning' | 'danger';
+    mode: 'default' | 'primary' | 'secondary' | 'danger';
     size?: 'normal' | 'small';
     className?: string;
     autoFocus?: boolean;
@@ -20,7 +20,7 @@ const stylesPerMode: Record<string, Record<string, string[]>> = {
             'text-white',
         ],
         hover: [
-            'bg-hover-white',
+            'bg-hover-none',
             'text-hover-charcoal-color-600'
         ]
     },
@@ -31,7 +31,7 @@ const stylesPerMode: Record<string, Record<string, string[]>> = {
             'text-white',
         ],
         hover: [
-            'bg-hover-white',
+            'bg-hover-none',
             'text-hover-primary-color'
         ]
     },
@@ -39,7 +39,7 @@ const stylesPerMode: Record<string, Record<string, string[]>> = {
         base: [
             'border-charcoal-color-400',
             'text-charcoal-color-400',
-            'bg-white',
+            'bg-none',
         ],
         hover: [
             'text-hover-primary-color',
@@ -53,7 +53,7 @@ const stylesPerMode: Record<string, Record<string, string[]>> = {
             'text-white',
         ],
         hover: [
-            'bg-hover-white',
+            'bg-hover-none',
             'text-hover-danger-400',
             'border-hover-danger-400',
         ]

@@ -1,5 +1,5 @@
 {
-  "name": "unified-components",
+  "name": "unified-react-components",
   "version": "0.0.1",
   "description": "Collection of Engage reusable components",
   "main": "index.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/engagor/unified-components.git"
+    "url": "git+https://github.com/engagor/unified-components-react.git"
   },
   "keywords": [
     "engage",
@@ -30,9 +30,9 @@
   "author": "Thomas Van Kerckvoorde <thomas.vankerckvoorde@clarabridge.com>",
   "license": "SEE LICENSE IN LICENSE.txt",
   "bugs": {
-    "url": "https://github.com/engagor/unified-components/issues"
+    "url": "https://github.com/engagor/unified-components-react/issues"
   },
-  "homepage": "https://github.com/engagor/unified-components#readme",
+  "homepage": "https://github.com/engagor/unified-components-react#readme",
   "dependencies": {
     "@clarabridge/unified-icons": "^8.1.0",
     "@clarabridge/unified-ui": "^5.2.0",

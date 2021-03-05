@@ -9,12 +9,12 @@ https://engagor.github.io/unified-components-react
 Clarabridge Engage Unified Components can be installed as an [npm package](https://www.npmjs.com/package/@clarabridge/unified-components):
 
 ```bash
-$ npm i @clarabridge/unified-components
+$ npm i @clarabridge/unified-react-components
 ```
 
 ## Basic usage
 
-`import { Input } from @clarabridge/unified-components`
+`import { Input } from @clarabridge/unified-react-components`
 
 ## Contributing
 

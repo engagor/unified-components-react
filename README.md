@@ -2,7 +2,7 @@
 
 Clarabridge Engage Unified Components is a set of React components that implement our unified design.
 
-https://engagor.github.io/unified-components-react/?path=/story/button--default
+https://engagor.github.io/unified-components-react
 
 ## Installation
 

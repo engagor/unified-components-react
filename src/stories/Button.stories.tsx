@@ -3,6 +3,7 @@ import React from "react";
 
 import '../css/form.css';
 import Button, {ButtonProps} from "../buttons/Button";
+import ButtonGroup, {ButtonGroupProps} from "../buttons/ButtonGroup";
 
 export default {
     title: 'Button',
@@ -16,12 +17,16 @@ export default {
 
 const TemplateButton: Story<ButtonProps> = (args) => <Button {...args}>Button</Button>;
 
+const TemplateButtonGroup: Story<ButtonGroupProps> = (args) => <ButtonGroup><Button className='mr-8' mode='secondary' type='button'>Cancel</Button><Button mode='primary' type='button'>Submit</Button></ButtonGroup>;
+
 export const Default = TemplateButton.bind({});
 export const Primary = TemplateButton.bind({});
 export const Secondary = TemplateButton.bind({});
 export const Danger = TemplateButton.bind({});
 
 export const Small = TemplateButton.bind({});
+
+export const Group = TemplateButtonGroup.bind({});
 
 Default.args = { mode: 'default' };
 Primary.args = { mode: 'primary' };

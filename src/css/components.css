@@ -116,10 +116,35 @@
     line-height: 0 !important;
 }
 
+.leading-base {
+    line-height: 1rem !important;
+}
+
 /**
  * Outline
  */
 
 .outline-none {
     outline: none !important;
+}
+
+/**
+ * Width
+ */
+
+.min-w-300 {
+    min-width: 300px !important;
+}
+
+.max-w-500 {
+    max-width: 500px !important;
+}
+
+
+/**
+ * Text manipulations
+ */
+
+.break-word {
+    word-break: break-word;
 }

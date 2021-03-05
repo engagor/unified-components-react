@@ -2,8 +2,6 @@ import { Meta, Story } from '@storybook/react/types-6-0';
 import React from 'react';
 
 import '../css/components.css';
-import Button, { ButtonProps } from '../buttons/Button';
-import ButtonGroup, { ButtonGroupProps } from '../buttons/ButtonGroup';
 import SwitchButton, { SwitchButtonProps } from '../buttons/SwitchButton';
 
 export default {

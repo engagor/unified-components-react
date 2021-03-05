@@ -1,5 +1,7 @@
 import React, { PropsWithChildren, ReactElement } from 'react';
 
+import '../css/components.css';
+
 export type SwitchButtonProps = {
     checked: boolean;
     onToggle: () => void;

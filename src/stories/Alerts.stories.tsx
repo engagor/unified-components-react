@@ -1,11 +1,9 @@
-// Forms.stories.tsx
+import { Meta, Story } from '@storybook/react/types-6-0';
+import React from 'react';
 
-import {Meta, Story} from "@storybook/react/types-6-0";
-import React from "react";
-
-import Alert, {AlertProps} from "../alerts/Alert";
-import Button from "../buttons/Button";
-import ButtonGroup from "../buttons/ButtonGroup";
+import Alert, { AlertProps } from '../alerts/Alert';
+import Button from '../buttons/Button';
+import ButtonGroup from '../buttons/ButtonGroup';
 
 export default {
     title: 'Alert',

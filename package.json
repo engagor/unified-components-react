@@ -1,5 +1,5 @@
 {
-  "name": "unified-react-components",
+  "name": "@clarabridge/unified-react-components",
   "version": "0.0.1",
   "description": "Collection of Engage reusable components",
   "main": "index.js",

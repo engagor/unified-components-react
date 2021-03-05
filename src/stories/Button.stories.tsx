@@ -1,9 +1,9 @@
-import {Meta, Story} from "@storybook/react/types-6-0";
-import React from "react";
+import { Meta, Story } from '@storybook/react/types-6-0';
+import React from 'react';
 
 import '../css/form.css';
-import Button, {ButtonProps} from "../buttons/Button";
-import ButtonGroup, {ButtonGroupProps} from "../buttons/ButtonGroup";
+import Button, { ButtonProps } from '../buttons/Button';
+import ButtonGroup, { ButtonGroupProps } from '../buttons/ButtonGroup';
 
 export default {
     title: 'Button',

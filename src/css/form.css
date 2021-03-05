@@ -107,3 +107,19 @@
     max-width: 100%;
     height: auto;
 }
+
+/**
+ * Line height
+ */
+
+.leading-0 {
+    line-height: 0 !important;
+}
+
+/**
+ * Outline
+ */
+
+.outline-none {
+    outline: none !important;
+}

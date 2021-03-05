@@ -1,4 +1,4 @@
-import React, { ChangeEvent, ReactElement } from "react";
+import React, { ChangeEvent, PropsWithChildren, ReactElement } from 'react';
 
 type Props = {
     id: string;
@@ -12,7 +12,7 @@ type Props = {
     readOnly?: boolean;
 }
 
-const TextArea = (props: Props): ReactElement => {
+const TextArea = (props: PropsWithChildren<Props>): ReactElement => {
     const textAreaClassNames = ['form-control', 'form-textarea', 'p-relative'];
 
     if (props.className) {

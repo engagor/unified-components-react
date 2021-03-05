@@ -9,7 +9,7 @@ import FormGroup from "../forms/FormGroup";
 import FixedLabel from "../forms/FixedLabel";
 import Input from "../forms/Input";
 
-import '../css/form.css';
+import '../css/components.css';
 import Label from "../forms/Label";
 import Select from "../forms/Select";
 import OptGroup from "../forms/OptGroup";

@@ -21,9 +21,14 @@
         "isolatedModules": true,
         "jsx": "react",
         "sourceMap": true,
-        "typeRoots": ["node_modules/@types"]
+        "typeRoots": ["node_modules/@types"],
+        "declaration": true,
+        "declarationDir": "dist/types"
     },
     "include": [
         "src"
+    ],
+    "exclude": [
+        "src/stories"
     ]
 }

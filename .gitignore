@@ -1,5 +1,6 @@
 # generated sass/css files
 build/
+dist/
 /app/cache/*
 
 # mac files

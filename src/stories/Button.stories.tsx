@@ -1,7 +1,7 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
 import React from 'react';
 
-import '../css/form.css';
+import '../css/components.css';
 import Button, { ButtonProps } from '../buttons/Button';
 import ButtonGroup, { ButtonGroupProps } from '../buttons/ButtonGroup';
 

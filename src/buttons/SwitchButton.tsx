@@ -1,14 +1,15 @@
 import React, { PropsWithChildren, ReactElement } from 'react';
 
 export type SwitchButtonProps = {
-    toggled: boolean;
+    checked: boolean;
     onToggle: () => void;
     disabled?: boolean;
+    className?: string;
 };
 
 const stylesPerMode: Record<string, string[]> = {
-    toggled: ['bg-primary-color-400', 'pl-16'],
-    untoggled: ['bg-charcoal-color-200', 'pr-16'],
+    checked: ['bg-primary-color-400', 'pl-16'],
+    unchecked: ['bg-charcoal-color-200', 'pr-16'],
 }
 
 const SwitchButton = (props: PropsWithChildren<SwitchButtonProps>): ReactElement => {
@@ -21,8 +22,12 @@ const SwitchButton = (props: PropsWithChildren<SwitchButtonProps>): ReactElement
         'rounded-16',
         'border-0',
         'outline-none',
-        ...stylesPerMode[props.toggled ? 'toggled' : 'untoggled'],
+        ...stylesPerMode[props.checked ? 'checked' : 'unchecked'],
     ];
+
+    if (props.className) {
+        switchButtonClassNames.push(props.className);
+    }
 
     let optionalClasses = ['cursor-pointer'];
     if (props.disabled) {
@@ -39,7 +44,13 @@ const SwitchButton = (props: PropsWithChildren<SwitchButtonProps>): ReactElement
     ];
 
     return (
-        <button className={switchButtonClassNames.join(' ')} onClick={props.onToggle}>
+        <button
+            className={switchButtonClassNames.join(' ')}
+            onClick={props.onToggle}
+            type="button"
+            role="switch"
+            aria-checked={props.checked}
+        >
             <span className={toggleClassNames.join(' ')} />
         </button>
     );
